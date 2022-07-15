@@ -97,7 +97,7 @@ variable "ec2_instance_count" {
 variable "itype" {
   description = "instance type"
   type        = string
-  default     = "t2.micro"
+  default     = "t2.medium"
 }
 # output.tf
 output "public_ip" {
